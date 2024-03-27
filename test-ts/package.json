@@ -10,7 +10,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/lodash": "^4.17.0",
     "parcel": "^2.12.0",
     "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }

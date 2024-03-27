@@ -3,15 +3,27 @@
 // private
 
 class User5 {
-    public first: string
-    public last: string
-    public age: number
+    // 1) 
+    // public first: string = 'jw'
+    // public last: string
+    // public age: number
 
-    constructor(first: string, last: string, age: number) {
-        this.first = first
-        this.last = last
-        this.age = age
+     // constructor(first: string, last: string, age: number) {
+    //     this.first = first
+    //     this.last = last
+    //     this.age = age
+    // }
+
+    // 2) 매개변수에 접근제어자 사용 
+    constructor(
+        public first: string = 'jw', 
+        public last: string, 
+        public age: number
+    ) {
+   
     }
+
+   
 
     public getAge() {
         return `${this.first} ${this.last} ${this.age}`

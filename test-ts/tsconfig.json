@@ -5,7 +5,10 @@
         "moduleResolution": "Node",
         "esModuleInterop": true,
         "lib": ["ESNext", "DOM"],
-        "strict": true
+        "strict": true,
+        "typeRoots": [           // default 값 
+         "./node_modules/@types" // default 값 
+        ]
     },
      "include": [
         "src/**/*.ts"
