@@ -87,7 +87,7 @@ const ta: [string, number, boolean][] = [
     ['c', 16, false]
 ]
 
-// [[type 지정]]
+// [[type(별칭, alias) 지정]]
 type Tuple = [string, number, boolean]
 const tt: Tuple = ['a', 12, false]
 const tta: Tuple[] =  [
