@@ -1,2 +1,3 @@
 test-ts/dist/
 test-ts/.parcel-cache/
+test-ts/src/main.ts
